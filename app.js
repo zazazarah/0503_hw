@@ -5,6 +5,11 @@ $(document).ready(function() {
 		.html("X");
 	});
 
+	$(document).on("click", "#top-middle", function() {
+		$(this)
+		.html("O");
+	});
+
 });
 
 //var turn = "X";
